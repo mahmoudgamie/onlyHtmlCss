@@ -53,6 +53,10 @@ body{
     margin: 20% 0 2% 0;
 }
 
+.details-text {
+    margin-left: 30%;
+}
+
 .details-text p {
     margin: 0px;
 }
@@ -69,6 +73,7 @@ body{
 
 .remaining-time-circle {
     position: relative;
+    margin-left: 30%;
 }
 
 .remaining-time-outter {
@@ -76,9 +81,9 @@ body{
     top: 0px;
     left: 0px;
     border: 3px solid;
-    width: 35%;
+    width: 40%;
     height: auto;
-    padding-top: 35%;
+    padding-top: 40%;
     border-radius: 50%;
     border-color: #eae7e7 #ffa500 #ffa500 #ffa500;
     transform: rotate(-45deg);
@@ -88,22 +93,23 @@ body{
     top: 0px;
     left: 0px;
     border: 3px solid;
-    width: 35%;
+    width: 40%;
     height: auto;
-    padding-top: 35%;
+    padding-top: 40%;
     border-radius: 50%;
     border-color: #eae7e7 transparent transparent transparent;
     transform: rotate(-75deg);
 }
 
 .average-speed-circle {
-    position: relative;
+        position: relative;
     border: 3px solid;
-    width: 35%;
+    width: 30%;
     height: auto;
-    padding-top: 35%;
+    padding-top: 30%;
     border-radius: 50%;
-    border-color:  #eae7e7 #eae7e7 transparent #eae7e7;
+    margin-left: 30%;
+    border-color: #eae7e7 #eae7e7 transparent #eae7e7;
 }
 
 .inner-circle {
@@ -114,16 +120,16 @@ body{
     height: auto;
     padding-top: 7%;
     border-radius: 50%;
-    border: 1px solid red;
-    background-color: red;
+    background-color: #ff0000;
 }
 
 .speed-pointer {
     position: absolute;
-    top: 34%;
-    left: 47%;
-    border: 2px solid red;
-    width: 36%;
+    top: 36%;
+    left: 49%;
+    width: 31%;
+    height: 2%;
+    background-color: #ff0000;
     transform: rotate(317deg);
 }
 
@@ -198,5 +204,5 @@ body{
     width: 100%;
     background-color: #0000ff;
     border-radius: 6px;
-    padding: 5%;
+    padding: 8%;
 }
