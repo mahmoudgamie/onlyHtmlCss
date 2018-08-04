@@ -2,6 +2,7 @@
 
 body{
     background-color: #e5e5e5;
+    font-family: sans-serif;
 }
 
 
@@ -31,7 +32,7 @@ body{
 }
 
 .msg-container {
-    width: 70%;
+    width: 75%;
     padding-left: 10%;
 }
 
@@ -135,7 +136,7 @@ body{
 
 .progress-bar-container {
     position: relative;
-    margin-top: 50px;
+    margin-top: 15%;
 }
 
 .progress-bar-dashed {
@@ -152,7 +153,7 @@ body{
     width: 78%;
 }
 
-.progress-bar-#0000ff {
+.progress-bar-blue {
     position: absolute;
     margin-left: 16%;
     border-top: 2px solid #0000ff;
@@ -197,7 +198,7 @@ body{
 
 .button {
     width: 80%;
-    margin: 20px auto;
+    margin: 10% auto;
 }
 
 .button button {
