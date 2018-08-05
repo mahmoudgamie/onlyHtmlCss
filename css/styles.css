@@ -224,7 +224,7 @@ body{
     .speed-pointer {
         height: 3%;
         top: 35%;
-        width: 40%;
+        left: 46%;
     }
 
     .remaining-time-inner, .remaining-time-outter, .average-speed-circle {
