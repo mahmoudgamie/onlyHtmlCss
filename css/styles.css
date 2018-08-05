@@ -103,7 +103,7 @@ body{
 }
 
 .average-speed-circle {
-        position: relative;
+    position: relative;
     border: 3px solid;
     width: 30%;
     height: auto;
@@ -216,7 +216,22 @@ body{
     .start-circle {
         top: 0
     }
+
     .pick-up-point {
         top: 0
     }
+    
+    .speed-pointer {
+        height: 3%;
+        transform: rotate(314deg);
+    }
+
+    .remaining-time-inner, .remaining-time-outter, .average-speed-circle {
+        border-width: 2px;
+    }
+
+    .progress-bar-solid, .progress-bar-dashed, .progress-bar-blue {
+        border-width: 1px;
+    }
+
 }
